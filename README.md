@@ -1,7 +1,7 @@
 # Goal: 
     To poc, locally without cluster, a rest api that allows interaction with apache spark and delta lake for read/write.
 
-# Installation: ps. on my mac, 
+# Installation: macOS Catalina 10.15.7
     1. java 8 (java 14 doesn't work so i had to install java 8 with brew cask)
     2. miniconda 3 (installed before)
     3. create conda env 'spark' and install pyspark 3 (required by delta lake) and also jupyter
