@@ -6,7 +6,7 @@
     2. miniconda 3 (installed before)
     3. create conda env 'spark' and install pyspark 3 (required by delta lake) and also jupyter
 
-    ##To start interactive pyspark shell with delta lake: 
+## To start interactive pyspark shell with delta lake: 
         1. . activate spark 
         2. set 4 env variables: 
             ** even with --packages, it only works for 'pyspark' not 'spark-submit'
@@ -41,7 +41,7 @@
         df = spark.read.format("delta").load("/tmp/delta-table")
         df.show()
 
-    To start interactive jupyter with pyspark & delta lake
+## To start interactive jupyter with pyspark & delta lake
         1. . activate spark 
         2. set 4 env variables above and two more below    
             export PYSPARK_DRIVER_PYTHON="jupyter"
@@ -55,7 +55,7 @@
 
         4. create a python notebook and can reuse code above
 
-    To start flask app with pyspark & delta lake
+## To start flask app with pyspark & delta lake
         1. . activate spark 
         2. set 3 env variables
             export SPARK_HOME=/opt/miniconda3/envs/spark/lib/python3.7/site-packages/pyspark
