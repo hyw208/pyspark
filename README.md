@@ -1,6 +1,5 @@
-# pyspark
-
-# Goal: to poc, locally without cluster, a rest api that allows interaction with apache spark and delta lake for read/write
+# Goal: 
+    To poc, locally without cluster, a rest api that allows interaction with apache spark and delta lake for read/write.
 
 # Installation: ps. on my mac, 
     1. java 8 (java 14 doesn't work so i had to install java 8 with brew cask)
