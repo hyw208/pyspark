@@ -1,9 +1,8 @@
 # pyspark
-to poc, locally without cluster, a rest api that allows interaction with apache spark and delta lake for read/write
 
-Goal: to poc, locally without cluster, a rest api that allows interaction with apache spark and delta lake for read/write
+# Goal: to poc, locally without cluster, a rest api that allows interaction with apache spark and delta lake for read/write
 
-Installation: ps. on my mac, 
+# Installation: ps. on my mac, 
     1. java 8 (java 14 doesn't work so i had to install java 8 with brew cask)
     2. miniconda 3 (installed before)
     3. create conda env 'spark' and install pyspark 3 (required by delta lake) and also jupyter
@@ -96,7 +95,7 @@ Installation: ps. on my mac,
         5. bring up browser and type in http://localhost:5000/read to see the data created before
 
 
-References:
+# References:
     1. delta lake: https://docs.delta.io/latest/quick-start.html
     2. jupyter with delta lake: https://github.com/pyMixin/DeltaLake/blob/master/Delta%20Lake%20on%20Jupyter%20Notebooks.ipynb
     3. flask: https://realpython.com/flask-by-example-part-1-project-setup/ 
